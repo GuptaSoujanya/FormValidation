@@ -19,32 +19,32 @@
             <div class="card-header">
                 <h1>Create Account</h1>
             </div>
-            <form action="" class="p-4">
+            <form action="">
                 <div class="mb-3">
-                    <label class="form-label">Username</label>
-                    <input type="text" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="Username" />
-                    <small id="emailHelpId" class="form-text text-muted">Username cannot be empty</small>
+                    <p class="form-label">Username</p>
+                    <input type="text" class="form-control" name="" id="name" placeholder="Username" />
+                    <small class="form-text text-muted" id="name1" style="color: red !important; ">Username cannot be empty</small>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="abc@mail.com" />
-                    <small id="emailHelpId" class="form-text text-muted">Help text</small>
+                    <p class="form-label">Email</p>
+                    <input type="email" class="form-control" name="" id="email" placeholder="abc@mail.com" />
+                    <small class="form-text text-muted " id="email1" style="color: red !important; ">Email cannot be empty
+                    </small>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="form-label">Password</label>
-                    <input type="password" class="form-control" name="" id="" placeholder="Password" />
-                    <small id="emailHelpId" class="form-text text-muted">Password cannot be empty</small>
+                    <p for="" class="form-label">Password</p>
+                    <input type="password" class="form-control" name="" id="password" placeholder="Password" />
+                    <small class="form-text text-muted " id="password1" style="color: red !important; ">Password cannot be empty</small>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="form-label">Password Check</label>
-                    <input type="password" class="form-control" name="" id="" placeholder="Password check" />
-                    <small id="emailHelpId" class="form-text text-muted">Password Check cannot be empty</small>
+                    <p for="" class="form-label">Password Check</p>
+                    <input type="password" class="form-control" name="" id="CheckPassword" placeholder="Password check" />
+                    <small class="form-text text-muted " id="checkPassword1" style="color: red !important; ">Password Check cannot be empty</small>
                 </div>
-                <button type="submit" class="btn">
-                    Submit
-                </button>
-
             </form>
+            <button class="btn" onclick="Isvalid()">
+                Submit
+            </button>
         </div>
     </div>
     <script src="script.js"></script>

@@ -25,3 +25,22 @@ button:not(:disabled):hover {
     cursor: pointer;
     background: aqua;
 }
+
+#emailHelpId {
+    color: red !important;
+}
+
+.btn {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    width: 350px !important;
+    margin-left: 1rem!important;
+    margin-right: 1rem!important;
+    margin-bottom: 1rem!important;
+}
+
+form {
+    padding-top: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+}
